@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h2>
+    Country list from local json file...
+  </h2>
+<ul *ngFor="let item of countryList">
+  <li>
+    <h3>Country Name :{{item.name}}, Code: {{item.code}}</h3>
+  </li>
+</ul>
+</div>
+<router-outlet></router-outlet>
